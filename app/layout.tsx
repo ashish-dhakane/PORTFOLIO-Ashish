@@ -26,10 +26,10 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://ashishdhakane.dev"),
   title: "Ashish Dhakane",
   description:
-    "Backend-focused Computer Science Engineer specializing in production-grade systems, concurrent applications, and cybersecurity automation. Building scalable backends and secure architectures.",
-  keywords: [
+    "Full-Stack Computer Science Engineer with a strong interest in cybersecurity, specializing in production-grade systems, concurrent applications, and secure architectures.",
+keywords: [
     "Ashish Dhakane",
-    "Backend Engineer",
+    "Full-Stack Developer",
     "Go",
     "Node.js",
     "Cybersecurity",
@@ -37,10 +37,10 @@ export const metadata: Metadata = {
     "Computer Science",
   ],
   authors: [{ name: "Ashish Dhakane" }],
-  openGraph: {
-    title: "Ashish Dhakane | Backend Engineer & CS Student",
+openGraph: {
+    title: "Ashish Dhakane | Full-Stack Developer & CS Student",
     description:
-      "Building Scalable Backends & Secure Architectures. Backend-focused CS Engineer specializing in production-grade systems.",
+      "Full-Stack Developer with a passion for cybersecurity. Building production-grade systems with a security-first mindset.",
     type: "website",
     locale: "en_US",
     url: "https://ashishdhakane.dev",
@@ -49,15 +49,15 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Ashish Dhakane — Backend Engineer Portfolio",
+        alt: "Ashish Dhakane — Full-Stack Developer Portfolio",
       },
     ],
   },
-  twitter: {
+twitter: {
     card: "summary_large_image",
-    title: "Ashish Dhakane | Backend Engineer & CS Student",
+    title: "Ashish Dhakane | Full-Stack Developer & CS Student",
     description:
-      "Building Scalable Backends & Secure Architectures. Backend-focused CS Engineer specializing in production-grade systems.",
+      "Full-Stack Developer with a passion for cybersecurity. Building production-grade systems with a security-first mindset.",
     images: ["/og-image.png"],
   },
 };

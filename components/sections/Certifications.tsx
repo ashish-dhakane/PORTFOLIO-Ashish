@@ -12,7 +12,6 @@ const certificates: Certificate[] = [
   { src: "/images/certificates/cert2.jpg", alt: "" },
   { src: "/images/certificates/cert3.jpg", alt: "" },
   { src: "/images/certificates/cert4.jpg", alt: "" },
-  { src: "/images/certificates/cert5.jpg", alt: "" },
   { src: "/images/certificates/cert6.jpg", alt: "" },
   { src: "/images/certificates/cert7.jpg", alt: "" },
   { src: "/images/certificates/cert8.jpg", alt: "" },

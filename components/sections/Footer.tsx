@@ -138,7 +138,7 @@ export default function Footer() {
               </span>
               <span className="h-4 w-px bg-white/10" />
               <span className="font-mono text-xs text-text-secondary/50">
-                Backend Engineer
+                Full-Stack Developer
               </span>
             </div>
 

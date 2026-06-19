@@ -98,7 +98,7 @@ export default function Hero() {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-neon-cyan" />
             </span>
             <span className="font-mono text-xs uppercase tracking-wider text-neon-cyan">
-              Open to Backend & SDE Roles
+              Open to Full-Stack & SDE Roles
             </span>
           </motion.div>
 
@@ -107,10 +107,10 @@ export default function Hero() {
             variants={staggerItem}
             className="mb-6 font-heading text-4xl font-bold leading-tight tracking-tight text-text-primary sm:text-5xl md:text-6xl lg:text-7xl"
           >
-            Building Scalable{" "}
-            <span className="gradient-text">Backends</span>
+            Building Full-Stack{" "}
+            <span className="gradient-text">Products</span>
             <br />
-            & Secure Architectures
+            with a Security-First Mindset
           </motion.h1>
 
           {/* Subhead */}
@@ -120,9 +120,9 @@ export default function Hero() {
           >
             Hi, I&apos;m{" "}
             <span className="font-semibold text-text-primary">Ashish Dhakane</span>{" "}
-            — a Backend-focused Computer Science Engineer specializing in
-            production-grade systems, concurrent applications, and cybersecurity
-            automation.
+            — a Full-Stack Computer Science Engineer with a strong interest in
+            cybersecurity, specializing in production-grade systems, concurrent
+            applications, and secure architectures.
           </motion.p>
 
           {/* CTAs */}

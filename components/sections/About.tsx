@@ -80,15 +80,15 @@ export default function About() {
           {/* Summary text */}
           <motion.div variants={staggerItem} className="max-w-xl text-center lg:text-left">
             <h3 className="mb-4 font-heading text-2xl font-bold text-text-primary sm:text-3xl">
-              Backend Engineer with a{" "}
-              <span className="gradient-text">Systems Mindset</span>
+              Full-Stack Developer with a{" "}
+              <span className="gradient-text">Security Mindset</span>
             </h3>
             <p className="mb-6 text-base leading-relaxed text-text-secondary">
-              Currently interning at{" "}
-              <span className="font-semibold text-text-primary">Maha Metro</span>,
-              building REST APIs and enterprise backend infrastructure. Proven
-              ability to design production-grade systems independently with a
-              focus on clean architecture, testability, and performance.
+              Building full-stack products end-to-end — from REST APIs and
+              enterprise backend infrastructure to the interfaces that
+              consume them. Proven ability to design production-grade
+              systems independently with a focus on clean architecture,
+              testability, and performance.
             </p>
             <p className="text-base leading-relaxed text-text-secondary">
               I enjoy working at the intersection of performance and security —
