@@ -1,0 +1,113 @@
+# Ashish Dhakane — Portfolio
+
+My personal portfolio site — a full-stack developer with a strong interest in cybersecurity, showcasing my projects, experience, skills, and certifications.
+
+**Live site:** [ashishdhakane.dev](https://ashishdhakane.dev) <!-- update if different -->
+
+---
+
+## ✨ Features
+
+- **Interactive 3D hero section** built with Three.js / React Three Fiber
+- **Smooth scroll & motion animations** powered by Framer Motion
+- **Responsive, dark-themed UI** with a custom neon-cyan / electric-indigo design system
+- **Certifications gallery** — click-to-expand modal with a scrollable grid and a full-size lightbox view (prev/next navigation, keyboard controls)
+- **Working contact form** that sends real emails via the Resend API
+- **SEO-ready** — Open Graph & Twitter card metadata, sitemap, and robots.txt
+
+## 🧱 Sections
+
+| Section | Description |
+|---|---|
+| Hero | Intro, role, and quick links (GitHub, LinkedIn, email) |
+| About | Bio + technical skill matrix (languages, backend, devops, frontend) |
+| Experience | Professional work history |
+| Projects | Featured projects with tech stack tags |
+| Certifications | Gallery of course/hackathon certificates |
+| Achievements & Education | Awards, hackathons, and degree info |
+| Contact | Contact form + direct contact details |
+
+## 🛠 Tech Stack
+
+- **Framework:** [Next.js 14](https://nextjs.org/) (App Router) + TypeScript
+- **Styling:** Tailwind CSS
+- **Animation:** Framer Motion
+- **3D:** Three.js via `@react-three/fiber` and `@react-three/drei`
+- **Smooth scrolling:** Lenis
+- **Email:** Resend API
+- **Icons:** lucide-react
+- **Deployment:** Vercel
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/ashish-dhakane/PORTFOLIO_NEWW.git
+cd PORTFOLIO_NEWW
+npm install
+```
+
+### Environment variables
+
+Copy the example file and fill in your own values:
+
+```bash
+cp .env.local.example .env.local
+```
+
+| Variable | Description |
+|---|---|
+| `RESEND_API_KEY` | API key from [resend.com](https://resend.com/api-keys) |
+| `FROM_EMAIL` | Sender address (use `onboarding@resend.dev` for testing) |
+| `CONTACT_EMAIL` | Where contact-form submissions are delivered |
+
+### Run locally
+
+```bash
+npm run dev
+```
+
+Visit [http://localhost:3000](http://localhost:3000).
+
+### Other scripts
+
+```bash
+npm run build   # production build
+npm run start   # run the production build
+npm run lint    # lint the project
+```
+
+## 📁 Project Structure
+
+```
+├── app/                  # Next.js App Router pages, layout, metadata
+├── components/
+│   ├── sections/         # Hero, About, Experience, Projects, Certifications, Achievements, Footer
+│   ├── ui/                # Navbar, GlowCard, SectionHeading, ContactForm, CertificateModal, etc.
+│   └── three/             # 3D background components
+├── lib/                  # Motion variants, utils, smooth scroll setup
+├── public/
+│   └── images/
+│       └── certificates/  # Certificate images shown in the gallery
+└── tailwind.config.ts     # Design tokens (colors, fonts, spacing)
+```
+
+## 📦 Deployment
+
+This project is deployed on [Vercel](https://vercel.com/). Pushing to `main` triggers an automatic redeploy. Make sure the environment variables above are also set in your Vercel project settings.
+
+## 📬 Contact
+
+- **Email:** [dhakneashish110@gmail.com](mailto:dhakneashish110@gmail.com)
+- **Phone:** [+91 8830533848](tel:+918830533848)
+- **GitHub:** [@ashish-dhakane](https://github.com/ashish-dhakane)
+- **LinkedIn:** [ashish-dhakane](https://www.linkedin.com/in/ashish-dhakane)
+
+## 📄 License
+
+This project is open to view, but the content (resume, certificates, photos, and personal info) is © Ashish Dhakane. Please don't reuse it as your own portfolio.
