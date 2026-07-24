@@ -15,7 +15,7 @@ const projects = [
     description:
       "Concurrent endpoint-monitoring tool that checks N URLs simultaneously using goroutines, cutting total check time by ~70% versus sequential polling across 50+ endpoints. Tracks HTTP status codes, response times, and failure rates via Go's net/http package.",
     github: "https://github.com/ashishdhakane/url-health-monitor",
-    demo: "",
+    demo: "https://curlsc.vercel.app/",
     image: "/images/project-url-monitor.jpg",
     color: "#2DE2E6",
   },
