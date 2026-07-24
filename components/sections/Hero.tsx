@@ -171,7 +171,7 @@ export default function Hero() {
                   <Github className="h-5 w-5" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/ashishdhakane"
+                  href="https://www.linkedin.com/in/ashish-dhakane/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-10 w-10 items-center justify-center rounded-md text-text-secondary transition-colors hover:bg-white/5 hover:text-neon-cyan"
