@@ -25,7 +25,7 @@ const projects = [
     description:
       "AI-powered fitness platform that generates personalized workout and nutrition plans based on user goals, body metrics, and fitness level. Tracks workout schedules, calorie/protein intake, and progress over time, with REST APIs built on Express and Prisma, and Clerk handling authentication and session management.",
     github: "https://github.com/ashish-dhakane/AI-Fitness-Coach",
-    demo: "https://github.com/ashish-dhakane/AI-Fitness-Coach",
+    //demo: "https://github.com/ashish-dhakane/AI-Fitness-Coach",
     image: "/images/project-aifitness.jpg",
     color: "#7C5CFF",
   },
@@ -35,7 +35,7 @@ const projects = [
     description:
       "Mental wellness web app offering mood tracking and AI-driven conversational support for users seeking emotional guidance. Backend built with Node.js and Express, using PostgreSQL to persist conversation history and Clerk for secure user authentication, with the Gemini API generating contextual responses.",
     github: "https://github.com/ashish-dhakane/Sarthi-AI",
-    demo: "https://github.com/ashish-dhakane/Sarthi-AI",
+    //demo: "https://github.com/ashish-dhakane/Sarthi-AI",
     image: "/images/project-sarthi.jpg",
     color: "#FF6B6B",
   },
