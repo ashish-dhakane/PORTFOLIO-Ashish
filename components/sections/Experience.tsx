@@ -10,7 +10,7 @@ const experiences = [
   {
     company: "Maha Metro Rail Corporation",
     role: "Backend Intern",
-    period: "May 2025 – June 2025",
+    period: "May 2026 – July 2026",
     bullets: [
       "Developed REST API endpoints for internal enterprise modules using Node.js, enabling reliable data exchange between 3+ backend services.",
       "Resolved critical bugs in database query logic and API response handling, reducing error frequency in two high-use workflows.",
