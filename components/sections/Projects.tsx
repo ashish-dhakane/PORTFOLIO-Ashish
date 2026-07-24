@@ -55,7 +55,7 @@ const projects = [
     description:
       "Enterprise expense-management platform with multi-level approval workflows, role-based access control (RBAC), and real-time status tracking. Built with Node.js, Express.js, PostgreSQL, and JWT authentication, including secure file uploads and dynamic dashboards.",
     github: "https://github.com/ashish-dhakane/IMPREST-Maha-Metro",
-    //demo: "",
+    demo: "https://imprest-maha-metro.vercel.app/",
     image: "/images/project-imprest.jpg",
     color: "#2DE2E6",
   },
