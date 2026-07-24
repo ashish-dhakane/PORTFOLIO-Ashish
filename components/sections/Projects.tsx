@@ -14,20 +14,40 @@ const projects = [
     tech: ["Go"],
     description:
       "Concurrent endpoint-monitoring tool that checks N URLs simultaneously using goroutines, cutting total check time by ~70% versus sequential polling across 50+ endpoints. Tracks HTTP status codes, response times, and failure rates via Go's net/http package.",
-    github: "https://github.com/ashishdhakane/url-health-monitor",
+    github: "https://github.com/ashish-dhakane/CURLSC",
     demo: "https://curlsc.vercel.app/",
     image: "/images/project-url-monitor.jpg",
     color: "#2DE2E6",
   },
-  {
-    title: "File Integrity Monitoring (FIM) System",
-    tech: ["Python", "Cybersecurity"],
+{
+    title: "AI Fitness Coach",
+    tech: ["Next.js", "Node.js", "Express.js", "PostgreSQL", "Prisma", "Clerk", "Gemini API"],
     description:
-      "Cybersecurity automation tool that generates SHA-256 cryptographic baselines for monitored files and detects tampering in real time. Built as a configurable monitoring daemon with structured logging for straightforward Linux deployment.",
-    github: "https://github.com/ashishdhakane/fim-system",
-    demo: "",
-    image: "/images/project-fim.jpg",
-    color: "#8B5CF6",
+      "AI-powered fitness platform that generates personalized workout and nutrition plans based on user goals, body metrics, and fitness level. Tracks workout schedules, calorie/protein intake, and progress over time, with REST APIs built on Express and Prisma, and Clerk handling authentication and session management.",
+    github: "https://github.com/ashish-dhakane/AI-Fitness-Coach",
+    demo: "https://github.com/ashish-dhakane/AI-Fitness-Coach",
+    image: "/images/project-aifitness.jpg",
+    color: "#7C5CFF",
+  },
+  {
+    title: "Sarthi AI",
+    tech: ["Node.js", "Express.js", "PostgreSQL", "Clerk", "Gemini API"],
+    description:
+      "Mental wellness web app offering mood tracking and AI-driven conversational support for users seeking emotional guidance. Backend built with Node.js and Express, using PostgreSQL to persist conversation history and Clerk for secure user authentication, with the Gemini API generating contextual responses.",
+    github: "https://github.com/ashish-dhakane/Sarthi-AI",
+    demo: "https://github.com/ashish-dhakane/Sarthi-AI",
+    image: "/images/project-sarthi.jpg",
+    color: "#FF6B6B",
+  },
+  {
+    title: "TaskFlow",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Zustand", "Prisma", "PostgreSQL"],
+    description:
+      "Dark-mode productivity app with task management, a focus timer with animated progress ring, and system notifications via Service Worker. Includes drag-and-drop task reordering, a productivity dashboard with streaks and stats, and automatic LocalStorage fallback when PostgreSQL is unavailable.",
+    github: "https://github.com/ashish-dhakane/TaskFlow",
+    demo: "https://task-flow-tawny-gamma.vercel.app/",
+    image: "/images/project-taskflow.jpg",
+    color: "#00D9A5",
   },
   {
     title: "Imprest Management System",
