@@ -162,7 +162,7 @@ export default function Hero() {
                 className="absolute top-full left-1/2 mt-3 flex -translate-x-1/2 items-center gap-3 rounded-lg border border-white/10 bg-bg-navy/95 p-3 backdrop-blur-md"
               >
                 <a
-                  href="https://github.com/ashishdhakane"
+                  href="https://github.com/ashish-dhakane"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-10 w-10 items-center justify-center rounded-md text-text-secondary transition-colors hover:bg-white/5 hover:text-neon-cyan"
