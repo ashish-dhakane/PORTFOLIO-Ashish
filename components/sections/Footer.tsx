@@ -143,10 +143,6 @@ export default function Footer() {
             </div>
 
             <p className="font-mono text-xs text-text-secondary/40">
-              Built with Next.js, Three.js & Tailwind CSS
-            </p>
-
-            <p className="font-mono text-xs text-text-secondary/40">
               &copy; {new Date().getFullYear()} All rights reserved.
             </p>
           </motion.div>
